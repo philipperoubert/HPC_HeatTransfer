@@ -12,10 +12,11 @@ double calculate_temperature(int i, int j, double temperatureArray[][500]){
 
 
 int main(void) {
-
+  int i;
+  int j;
   double temperatures[500][500];
-  for (int i=0; i<500; i++){
-    for (int j=0; j<500; j++){
+  for (i=0; i<500; i++){
+    for (j=0; j<500; j++){
       if((i>=149 && i<=349) && (j>=149 && j<=349)){
         temperatures[i][j] = 50.0;
       }else{
@@ -30,8 +31,8 @@ int main(void) {
   while(timestep < 100){
     printf("Hello");
     timestep++;
-    for (int i=0; i<500; i++){
-      for (int j=0; j<500; j++){
+    for (i=0; i<500; i++){
+      for (j=0; j<500; j++){
         temperatures[i][j] += (calculate_temperature(i, j, temperatures) * timestepValue );
       }
     }
@@ -43,8 +44,8 @@ int main(void) {
   FILE *outfile;
   outfile=fopen("hte.dat","w");
 
-  for (int i=0; i<500; i++){
-    for (int j=0; j<500; j++){
+  for (i=0; i<500; i++){
+    for (j=0; j<500; j++){
       float xIndex = (float)i * 0.0002;
       float yIndex = (float)j * 0.0002;
       fprintf(outfile,"%f %f %f \n",xIndex, yIndex, temperatures[i][j]);
