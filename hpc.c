@@ -32,16 +32,15 @@ int main(void) {
   while(timestep < 10000){
     timestep++;
 
-    #pragma omp parallel for default(none) shared(none) private(i,j)
+    #pragma omp parallel for default(none) shared(temperatures, updatetemperatures, timestepValue) private(i,j) schedule(dynamic)
     for (i=1; i<499; i++){
       for (j=1; j<499; j++){
         updatetemperatures[i][j] = (calculate_temperature(i, j, temperatures) * timestepValue );
       }
     }
-    #pragma omp parallel for default(none) shared(none) private(i,j)
+    #pragma omp parallel for default(none) shared(updatetemperatures, temperatures) private(i,j) schedule(dynamic)
     for (i=1; i<499; i++){
       for (j=1; j<499; j++){
-        #pragma omp atomic
         temperatures[i][j] += updatetemperatures[i][j];
       }
     }
