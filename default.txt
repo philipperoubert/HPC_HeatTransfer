@@ -1,0 +1,63 @@
+1 Thread
+41.29user 0.00system 0:41.29elapsed 100%CPU (0avgtext+0avgdata 6516maxresident)k
+0inputs+8outputs (0major+7648minor)pagefaults 0swaps
+
+2 Threads
+41.19user 0.01system 0:20.70elapsed 199%CPU (0avgtext+0avgdata 6548maxresident)k
+0inputs+8outputs (0major+7650minor)pagefaults 0swaps
+
+3 Threads
+41.41user 0.01system 0:13.95elapsed 296%CPU (0avgtext+0avgdata 6552maxresident)k
+0inputs+8outputs (0major+5698minor)pagefaults 0swaps
+
+4 Threads
+41.67user 0.02system 0:10.58elapsed 394%CPU (0avgtext+0avgdata 6680maxresident)k
+0inputs+8outputs (0major+5712minor)pagefaults 0swaps
+
+5 Threads
+44.30user 0.01system 0:09.04elapsed 490%CPU (0avgtext+0avgdata 6736maxresident)k
+0inputs+8outputs (0major+5733minor)pagefaults 0swaps
+
+6 Threads
+44.44user 0.01system 0:07.65elapsed 581%CPU (0avgtext+0avgdata 6716maxresident)k
+0inputs+8outputs (0major+4744minor)pagefaults 0swaps
+
+7 Threads
+45.89user 0.02system 0:06.74elapsed 680%CPU (0avgtext+0avgdata 6644maxresident)k
+0inputs+8outputs (0major+5747minor)pagefaults 0swaps
+
+8 Threads
+46.52user 0.01system 0:06.00elapsed 774%CPU (0avgtext+0avgdata 6708maxresident)k
+0inputs+8outputs (0major+4767minor)pagefaults 0swaps
+
+9 Threads
+48.01user 0.02system 0:05.52elapsed 869%CPU (0avgtext+0avgdata 6624maxresident)k
+0inputs+8outputs (0major+4773minor)pagefaults 0swaps
+
+10 Threads
+48.19user 0.02system 0:05.02elapsed 959%CPU (0avgtext+0avgdata 6696maxresident)k
+0inputs+8outputs (0major+3779minor)pagefaults 0swaps
+
+11 Threads
+50.31user 0.02system 0:04.81elapsed 1045%CPU (0avgtext+0avgdata 6776maxresident)k
+0inputs+8outputs (0major+3800minor)pagefaults 0swaps
+
+12 Threads
+50.69user 0.03system 0:04.51elapsed 1123%CPU (0avgtext+0avgdata 6572maxresident)k
+0inputs+8outputs (0major+3800minor)pagefaults 0swaps
+
+13 Threads
+52.16user 0.04system 0:04.21elapsed 1238%CPU (0avgtext+0avgdata 6656maxresident)k
+0inputs+8outputs (0major+3806minor)pagefaults 0swaps
+
+14 Threads
+52.68user 0.02system 0:03.96elapsed 1328%CPU (0avgtext+0avgdata 6672maxresident)k
+0inputs+8outputs (0major+3814minor)pagefaults 0swaps
+
+15 Threads
+53.10user 0.02system 0:03.75elapsed 1413%CPU (0avgtext+0avgdata 6780maxresident)k
+0inputs+8outputs (0major+3831minor)pagefaults 0swaps
+
+16 Threads
+54.09user 0.04system 0:03.59elapsed 1506%CPU (0avgtext+0avgdata 6736maxresident)k
+0inputs+8outputs (0major+3843minor)pagefaults 0swaps
